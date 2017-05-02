@@ -113,31 +113,34 @@ If you don't see Git tab under Environment, History Pane then
     - go to **Tools --> Project Options**
     - click on **Git/SVN**
     - Change Version Control System from (None) to Git
-    ![](image/Selection_010.png)
-$~$  
-$~$  
+    ![](image/Selection_010.png)  
+<br>  
 
 2. **error: src refspec master does not match any.**  
 If you see the above error followed by error: failed to push some refs to 'git\@github.com:....' then 
     - It means you have not performed commit. So perfrom commit as mentioned under point 3 and 4 of [Commit and Push local files to Github](#commit)  
-$~$
-$~$
+<br>  
 
 3. **Enter username and password while performing push**
 If you are getting a window to enter username and password everytime you are performing push then your origin is set to https instead of ssh. To change that 
     - Go to your GitHub and open the repository. 
     - Click on **Clone or download** 
     - If the url starts with https:// then click on **Use SSH** to see a url that starts with git\@github.com 
-    - Copy that and go back to your shell from RStudio **Tools --> Shell** and type **git remote set-url origin \<paste-the-copied-url>**
-$~$  
-$~$  
+    - Copy that and go back to your shell from RStudio **Tools --> Shell** and type **git remote set-url origin \<paste-the-copied-url>**  
+<br>
 
 4. **xcrun: error: invalid active developer path**  
 If you are using mac and can't find Git tab while troubleshooting issue 1 and see the above error while commit/push then
-    - You need to install xcode-select. To do so run **xcode-select \--install** from your terminal
-$~$  
-$~$  
-$~$  
+    - You need to install xcode-select. To do so run **xcode-select \--install** from your terminal  
+<br>  
+
+5. **Please tell me who you are**
+![](image/Selection_001.png)  
+If you commit and you get error asking who you are then run whatever is displayed on window changing "you\@example.com" to your github email and "Your Name" to your GitHub display name. Example shown below 
+    - git config --global user.email "vikki.1107@gmail.com"
+    - git config --global user.name "Vivek Limbavali"
+
+<br>  
 
 ###More resources 
 * https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN
