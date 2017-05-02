@@ -28,7 +28,7 @@ $~$
 3. Check **Enable version control interface for RStudio projects**  
 ***Note:** Usually it will be checked if you have installed git*  
 $~$  
-![](/media/vikki/Flex/ProjectR/image/Selection_003.png)  
+![](image/Selection_003.png)  
 $~$  
 4. To avoid entering username and password everytime you push your code to Github you can setup SSH RSA Key. 
 $~$  
