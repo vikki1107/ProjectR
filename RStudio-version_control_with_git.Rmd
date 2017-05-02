@@ -12,27 +12,24 @@ RStudio now has integrated two different open source version control tools.
 2. SVN (Subversion)
 
 We will be focusing here on Git  
-$~$
+<br>  
 
 ####To use Git in Rstdio we need few pre-requisites  
 1. You need to install Git from [git-scm](https://git-scm.com/downloads).  
 ***Note:** It will automatically detect your operating system and gives you link to download*  
 2. You should be familiar with creating and working with Project in RStudio.  
-***Note:** Because Git feature only works with Projects*
-$~$  
-$~$  
+***Note:** Because Git feature only works with Projects*  
+<br>  
 
 ###Enable Git in RStudio
 1. Go to **Tools --> Global Options**
 2. Click on **Git/SVN**
 3. Check **Enable version control interface for RStudio projects**  
 ***Note:** Usually it will be checked if you have installed git*  
-$~$  
 ![](image/Selection_003.png)  
-$~$  
-4. To avoid entering username and password everytime you push your code to Github you can setup SSH RSA Key. 
-$~$  
-$~$  
+<br>
+4. To avoid entering username and password everytime you push your code to Github you can setup SSH RSA Key.  
+<br>  
 
 ###Set up SSH RSA Keys
 1. Click on **Create RSA Key** button
@@ -44,9 +41,8 @@ $~$
 7. Click on **SSH and GPG keys** from the left side menu
 8. Click on **New SSH key** from right top 
 9. Provide a **Title** and paste the key under Key section
-10. Click **Add SSH key**
-$~$  
-$~$  
+10. Click **Add SSH key**  
+<br>  
 
 ###Create a new project and new repository, Commit and push files to GitHub 
 ####Create a new project in RStudio
@@ -56,39 +52,33 @@ $~$
 3. Click on **Empty Project**
 4. Provide the **Directory name, Subdirectory and check Create a git repository**
 ![](image/Selection_005.png)  
-$~$  
+<br>   
 
 ####Create a repository in Github {#repo}
 1. Login to [Github](https://github.com/) and click on **Create New Repository** from the + icon
 2. Provide the project name created in RStudio and click on **Create repository**
-3. Copy appropriate code for quick setup. I would copy second chunck of code with 2 lines to push an existing repository. 
-$~$
+3. Copy appropriate code for quick setup. I would copy second chunck of code with 2 lines to push an existing repository.  
+<br>  
 
 ####Commit and Push local files to Github {#commit}
 1. Click on **Git** from the pane that contains Environment, History, Git
 2. From the files listed check the relevent files that you wish to upload to github  
 ***Note 1:** Make sure you save the files you want to upload within your project directory. Only then you will see the files under Git window. Also you don't need to upload Rproj, .gitignore files. Here I am uploading **plot_cars.R** file*  
-$~$  
 ![](image/Selection_006.png)  
-$~$  
-
+<br>  
 3. If you do not need some file to upload then make sure you add them to .gitignore. To do so select the file you want to ignore (no need to check the box) from the Git window and click on **More --> Ignore**. Make sure you have the right file under the ignore list and click **Save**. Below is the screenshot of ignoring test.RProj file.  
-$~$  
 ![](image/Selection_007.png)
-$~$  
-
+<br>  
 4. Click on **Commit** from the git window 
 ![](image/Selection_008.png)
-$~$
-
+<br>  
 5. Type in a message under **Commit message** window and click commit. 
 6. From the same git window click on **Tools --> Shell**
 7. Paste the code copied under point 3 of [Create a repository in Github](#repo) one line at a time in the shell and hit enter. 
 8. Refresh your Github page to see all the files commited under RStudio.
 9. Now you will see a Pull and Push buttons enabled. Any file you create can now be pushed without running any commands from Shell.  
 ***Note:** Remember to commit before pushing the files*  
-$~$  
-$~$  
+<br>  
 
 ###Create a new project using a repository that is already on GitHub
 1. Go to **File --> New Project**  
@@ -96,16 +86,13 @@ $~$
 3. Click on **Git**
 4. Enter the **Repository URL: and choose a subdirectory** where you want to store the project
 ![](image/Selection_009.png)
-$~$
-
+<br>  
 5. Click **Create Project**  
 6. Open shell from **Tools --> Shell** then enter **git remote set-url origin git\@github.com:vikki1107/Data-science.git** to change the origin from https to ssh.
-
-$~$  
+<br>  
 Now you can work on the files and push them to your github account
-$~$  
-$~$  
-
+<br>  
+<br>  
 
 ###Troubleshooting issues
 1. **Cannot find Git tab under Environment pane**  
@@ -139,7 +126,7 @@ If you are using mac and can't find Git tab while troubleshooting issue 1 and se
 If you commit and you get error asking who you are then run whatever is displayed on window changing "you\@example.com" to your github email and "Your Name" to your GitHub display name. Example shown below 
     - git config --global user.email "vikki.1107@gmail.com"
     - git config --global user.name "Vivek Limbavali"
-
+<br>  
 <br>  
 
 ###More resources 
