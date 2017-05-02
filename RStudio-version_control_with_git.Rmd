@@ -28,7 +28,7 @@ $~$
 3. Check **Enable version control interface for RStudio projects**  
 ***Note:** Usually it will be checked if you have installed git*  
 $~$  
-![](/media/vikki/Flex/ProjectR/image/Selection_003.png)  
+![](image/Selection_003.png)  
 $~$  
 4. To avoid entering username and password everytime you push your code to Github you can setup SSH RSA Key. 
 $~$  
@@ -51,11 +51,11 @@ $~$
 ###Create a new project and new repository, Commit and push files to GitHub 
 ####Create a new project in RStudio
 1. Go to **File --> New Project**  
-![](/media/vikki/Flex/ProjectR/image/Selection_004.png)
+![](image/Selection_004.png)
 2. Click on **New Directory**
 3. Click on **Empty Project**
 4. Provide the **Directory name, Subdirectory and check Create a git repository**
-![](/media/vikki/Flex/ProjectR/image/Selection_005.png)  
+![](image/Selection_005.png)  
 $~$  
 
 ####Create a repository in Github {#repo}
@@ -69,16 +69,16 @@ $~$
 2. From the files listed check the relevent files that you wish to upload to github  
 ***Note 1:** Make sure you save the files you want to upload within your project directory. Only then you will see the files under Git window. Also you don't need to upload Rproj, .gitignore files. Here I am uploading **plot_cars.R** file*  
 $~$  
-![](/media/vikki/Flex/ProjectR/image/Selection_006.png)  
+![](image/Selection_006.png)  
 $~$  
 
 3. If you do not need some file to upload then make sure you add them to .gitignore. To do so select the file you want to ignore (no need to check the box) from the Git window and click on **More --> Ignore**. Make sure you have the right file under the ignore list and click **Save**. Below is the screenshot of ignoring test.RProj file.  
 $~$  
-![](/media/vikki/Flex/ProjectR/image/Selection_007.png)
+![](image/Selection_007.png)
 $~$  
 
 4. Click on **Commit** from the git window 
-![](/media/vikki/Flex/ProjectR/image/Selection_008.png)
+![](image/Selection_008.png)
 $~$
 
 5. Type in a message under **Commit message** window and click commit. 
@@ -95,7 +95,7 @@ $~$
 2. Click on **Version Control**
 3. Click on **Git**
 4. Enter the **Repository URL: and choose a subdirectory** where you want to store the project
-![](/media/vikki/Flex/ProjectR/image/Selection_009.png)
+![](image/Selection_009.png)
 $~$
 
 5. Click **Create Project**  
@@ -113,7 +113,7 @@ If you don't see Git tab under Environment, History Pane then
     - go to **Tools --> Project Options**
     - click on **Git/SVN**
     - Change Version Control System from (None) to Git
-    ![](/media/vikki/Flex/ProjectR/image/Selection_010.png)
+    ![](image/Selection_010.png)
 $~$  
 $~$  
 
