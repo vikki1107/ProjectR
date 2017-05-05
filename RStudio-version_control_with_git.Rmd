@@ -135,7 +135,7 @@ If you commit and you get error asking who you are then run whatever is displaye
 * https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
 * http://r-bio.github.io/intro-git-rstudio/
 * http://r-pkgs.had.co.nz/git.html
-
+* https://github.com/azamatk/data/files/980056/How.to.configure.R.Studio.Project.with.Github_v1.docx
 
     
 
